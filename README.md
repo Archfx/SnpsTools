@@ -5,10 +5,12 @@ Log in to the server, clone this repo, Enjoy!
 ## VCS simulation
 
 Compile the verilog design and run
-```shell
+
+``` shell
 cd VCS
 vcs counter.v tb.v
-./simv```
+./simv 
+```
 
 
 ## Compile the Design with design compiler
