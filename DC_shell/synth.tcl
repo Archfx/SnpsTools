@@ -1,5 +1,5 @@
 ########### Library set up #######################################
-#set search_path [list /mnt/shared/arm/gf/12lpplus/sc9mcpp84_base_rvt_c14/r0p0/db]
+set search_path [list .]
 set target_library [list Libraries/saed90nm_typ.db]
 set link_library [list Libraries/saed90nm_typ.db]
 ##################################################################
@@ -11,7 +11,6 @@ define_design_lib work -path ./work
 #################################################################
 ########### Read Verilog by Autoread option  ####################
 
-#"rsa_mont"
 
 set rtl_path . #Set to current path	
 analyze $rtl_path -autoread -recursive -format verilog -top up_counter
