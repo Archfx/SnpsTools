@@ -1,10 +1,12 @@
 # Tutorial for Snps tool chain
 
 Log in to the server, clone this repo, Enjoy!
-Load the necessary modules
+
+## Load the necessary modules
 
 ``` shell
 module load snp
+module load vcs
 or 
 source /apps/settings
 ```
