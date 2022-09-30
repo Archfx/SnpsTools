@@ -23,9 +23,9 @@ vcs counter.v tb.v
 ```
 
 
-## Compile the Design with design compiler
+## Compile the design with Design Compiler
 
 ```shell
-cd DC-shell
+cd DC_shell
 dc_shell -no_gui -f synth.tcl
 ```
