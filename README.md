@@ -1,4 +1,4 @@
-# Tutorial for Snps tool chain
+# Tutorial for Synopsys tool chain
 
 Log in to the server, clone this repo, Enjoy!
 
